@@ -1,0 +1,18 @@
+body {
+    background-image:linear-gradient(to right top,#0011ff, #00eeff, #0011ff, #00eeff, #0011ff);
+    color: lavender;
+}
+.heading{
+    width: 80%;
+    font-size: 22px;
+
+}
+#camera{
+    border: 2px dashed lavender;
+    height: 300px;
+    width: 350px;
+}
+.name_of_objects , #result_object_name , #result_object_accuracy {
+    color:lavender;
+    
+}
