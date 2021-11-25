@@ -1,18 +1,42 @@
-body {
-    background-image:linear-gradient(to right top,#0011ff, #00eeff, #0011ff, #00eeff, #0011ff);
-    color: lavender;
+body{
+    font-family: 'Special Elite', cursive ;
+    background-color: lemonchiffon;
 }
-.heading{
-    width: 80%;
-    font-size: 22px;
+.header_div{
+    color:crimson;
+    background:White;
+}
+.header_div p {
+    font-family: 'Special Elite', cursive ;
+    font-size: 12px; 
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: crimson;
 
 }
-#camera{
-    border: 2px dashed lavender;
-    height: 300px;
-    width: 350px;
+.main_div{
+    font-family: 'Special Elite', cursive ;
+    color: crimson;
 }
-.name_of_objects , #result_object_name , #result_object_accuracy {
-    color:lavender;
-    
+
+
+
+.main_div button {
+    font-family: 'Special Elite', cursive ;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:lightcyan;
+    color:crimson;
+    text-align: center;
+    line-height:3;
+    text-shadow:5px 5px 5px crimson;
+    font-size: 18px;
+    font-family: 'Special Elite', cursive ;
 }
